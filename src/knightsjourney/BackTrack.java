@@ -35,8 +35,8 @@ public class BackTrack
               if (app.isOK (pos))
               {
                   app.markAsPossible (pos);
-                  if (app.isGoal (pos) || tryToReachGoal (pos))                  
-                       return true;                       
+                  if (app.isGoal (pos) || tryToReachGoal (pos))
+                       return true;
                   app.markAsDeadEnd (pos);                                                                 
               } // pos may be on a path to a goal
          } // while         

@@ -1,6 +1,6 @@
 package knightsjourney;
 
-public class Position 
+public class Position
 {
     	protected int row,
                       column;
