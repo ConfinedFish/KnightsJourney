@@ -8,15 +8,52 @@ public class KnightUser {
     }
     private void run(){
         Scanner scan = new Scanner(System.in);
-        int row = 0;
-        int col = 0;
-        Position pos = new Position(col, row);
-        int startCol = 4;
-        int startRow = 4;
-        Knight knight = new Knight(startCol, startRow,pos);
-        println("The final value: " + (movePiece(knight) ? "Success" : "Failure"));
-        print(knight.printGrid());
+        int row, col, startCol, startRow;
 
+        while (true){
+            print("Please enter a column width");
+            try{
+                col = scan.nextInt();
+                break;
+            }
+            catch (Exception e){
+                println("Invalid input");
+            }
+        }
+        while (true){
+            print("Please enter a row height");
+            try{
+                row = scan.nextInt();
+                break;
+            }
+            catch (Exception e){
+                println("Invalid Input");
+            }
+        }
+        while (true){
+            print("Please enter a starting column value");
+            try{
+                startCol = scan.nextInt();
+                break;
+            }
+            catch(Exception e){
+                println("Invalid input");
+            }
+        }
+        while (true){
+            print("Please enter a starting row value");
+            try{
+                startRow = scan.nextInt();
+                break;
+            }
+            catch(Exception e){
+                println("Invalid input");
+            }
+        }
+        Position pos = new Position(startRow, startCol);
+        Knight knight = new Knight(col, row, pos);
+        println("The final value: " + (movePiece(knight) ? "Success" : "Failure"));
+        println(knight.toString());
     }
     private boolean movePiece(Knight knight){
         BackTrack backTrack = new BackTrack(knight);

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4abae867-e9ff-4e9b-924c-7edec59d624d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/knightsjourney/BackTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightsjourney/BackTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Knight$KnightIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Knight$KnightIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/KnightUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/KnightUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KnightsJourney/knightsjourney/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/knightsjourney/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightsjourney/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/knightsjourney/KnightUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightsjourney/KnightUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/knightsjourney/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightsjourney/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knightsjourney/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightsjourney/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,39 +24,41 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="class" value="1" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3212" />
+          <entry key="java" value="6245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3212" />
+          <entry key="JAVA" value="6245" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49386665">
+    <splitter split-orientation="horizontal" split-proportion="0.45226666">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/Application.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -64,18 +67,18 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/Knight.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="91" selection-end-column="13" />
+                <state relative-caret-position="1768">
+                  <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
                   <folding>
                     <element signature="e#496#497#0" expanded="true" />
                     <element signature="e#524#525#0" expanded="true" />
                     <element signature="e#552#553#0" expanded="true" />
                     <element signature="e#580#581#0" expanded="true" />
                     <element signature="e#1004#1005#0" expanded="true" />
-                    <element signature="e#1049#1050#0" expanded="true" />
+                    <element signature="e#1055#1056#0" expanded="true" />
                     <element signature="e#1252#1253#0" expanded="true" />
                     <element signature="e#1304#1305#0" expanded="true" />
                     <element signature="e#1707#1708#0" expanded="true" />
@@ -88,8 +91,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/Position.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                <state relative-caret-position="495">
+                  <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -97,8 +100,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/BackTrack.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+                <state relative-caret-position="607">
+                  <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
                   <folding>
                     <element signature="e#279#280#0" expanded="true" />
                     <element signature="e#319#320#0" expanded="true" />
@@ -111,24 +114,28 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#2710#2711#0" expanded="true" />
-                    <element signature="e#2735#2736#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="238">
+                  <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/knightsjourney/KnightUser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <state relative-caret-position="391">
+                  <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#120#121#0" expanded="true" />
+                    <element signature="e#158#159#0" expanded="true" />
+                    <element signature="e#1571#1572#0" expanded="true" />
+                    <element signature="e#1608#1609#0" expanded="true" />
+                    <element signature="e#1646#1647#0" expanded="true" />
+                    <element signature="e#1685#1686#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -156,11 +163,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/knightsjourney/BackTrack.java" />
-        <option value="$PROJECT_DIR$/src/knightsjourney/Position.java" />
-        <option value="$PROJECT_DIR$/src/knightsjourney/KnightUser.java" />
         <option value="$PROJECT_DIR$/src/knightsjourney/Test.java" />
         <option value="$PROJECT_DIR$/src/knightsjourney/Knight.java" />
+        <option value="$PROJECT_DIR$/src/knightsjourney/Position.java" />
+        <option value="$PROJECT_DIR$/src/knightsjourney/BackTrack.java" />
+        <option value="$PROJECT_DIR$/src/knightsjourney/KnightUser.java" />
       </list>
     </option>
   </component>
@@ -171,8 +178,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
-    <option name="y" value="-30" />
+    <option name="x" value="1756" />
+    <option name="y" value="14" />
     <option name="width" value="1942" />
     <option name="height" value="2092" />
   </component>
@@ -194,43 +201,18 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="KnightsJourney" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnightsJourney" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnightsJourney" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnightsJourney" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnightsJourney" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnightsJourney" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="knightsjourney" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540945310104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540964171977" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/maze/Maze.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -296,12 +278,13 @@
       <workItem from="1540865365497" duration="1495000" />
       <workItem from="1540866884655" duration="2708000" />
       <workItem from="1540869618491" duration="13232000" />
-      <workItem from="1540883054358" duration="1094000" />
+      <workItem from="1540883054358" duration="1975000" />
+      <workItem from="1540946327091" duration="12437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19409000" />
+    <option name="totallyTimeSpent" value="32727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -317,12 +300,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28958786" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="8" visible="true" weight="0.3293124" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3293124" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.33224043" />
@@ -353,24 +336,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/knightsjourney/Maze.java" />
-    <entry file="file://$PROJECT_DIR$/src/knightsjourney/Application.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="514">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knightsjourney/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/knightsjourney/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="495">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/knightsjourney/BackTrack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="607">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
           <folding>
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -378,39 +375,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/knightsjourney/KnightUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/knightsjourney/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-          <folding>
-            <element signature="e#2710#2711#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/knightsjourney/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="1768">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
           <folding>
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#552#553#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
             <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
             <element signature="e#1252#1253#0" expanded="true" />
             <element signature="e#1304#1305#0" expanded="true" />
             <element signature="e#1707#1708#0" expanded="true" />
             <element signature="e#1749#1750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knightsjourney/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knightsjourney/KnightUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
           </folding>
         </state>
       </provider>

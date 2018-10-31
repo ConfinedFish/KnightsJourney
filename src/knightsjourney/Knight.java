@@ -4,23 +4,22 @@ import java.util.Iterator;
 
 public class Knight implements Application{
     private static byte moves;
-    private int gridX, gridY;
+    private int col, row;
     private Position start;
     private byte[][] grid;
 
     public Knight(int col, int row, Position start) {
-        this.gridX = col;
-        this.gridY = row;
+        this.col = col;
+        this.row = row;
         this.start = start;
         this.grid = new byte[col][row];
-        grid[start.getColumn()][start.getRow()] = -1;
         moves = 0;
     }
     
     Position getStart() {
         return start;
     }
-    public byte getMoves(){
+    byte getMoves(){
         return moves;
     }
     @Override
@@ -30,13 +29,13 @@ public class Knight implements Application{
 
     @Override
     public void markAsPossible(Position pos) {
-        grid [pos.getColumn()][pos.getRow()] = moves;
         moves++;
+        grid [pos.getColumn()][pos.getRow()] = moves;
     }
 
     @Override
     public boolean isGoal(Position pos) {
-        return moves == gridX * gridY;
+        return moves == (col * row);
     }
 
     @Override
@@ -47,17 +46,15 @@ public class Knight implements Application{
 
     @Override
     public Iterator<Position> iterator(Position pos) {
-        return new KnightIterator(pos, this);
+        return new KnightIterator(pos);
     }
     protected class KnightIterator implements Iterator<Position>{
         static final int MAX = 8;
         int row, col, count;
-        Knight knight;
-        KnightIterator(Position position, Knight knight){
+        KnightIterator(Position position){
             this.row = position.getRow();
             this.col = position.getColumn();
             this.count = 0;
-            this.knight = knight;
         }
         public boolean hasNext(){
             return count < MAX;
@@ -88,28 +85,21 @@ public class Knight implements Application{
                     break;
                 case 7:
                     next = new Position(row + 2, col - 1);//WN
-                    break;
             }
-            System.out.println(count);
-            System.out.print(knight.printGrid() + "\n");
             return next;
         }
     }
-    String printGrid(){
+    public String toString(){
         StringBuilder builder = new StringBuilder();
         for (byte[] grid : grid) {
             for (int j = 0; j < this.grid[0].length; j++) {
-                String color = "\u001B[37m";
-                if (grid[j] != 0){
-                    color = "\u001B[31m";
+                String stringVal;
+                if (grid[j] < 10){
+                   stringVal = " " + Byte.toString(grid[j]);
+                }else{
+                    stringVal = Byte.toString(grid[j]);
                 }
-                if(grid[j] == -1){
-                    color = "\u001B[36m";
-                }
-                if (grid[j] == 0){
-                    color = "\u001B[35m";
-                }
-                builder.append("[").append(color).append(grid[j]).append("\u001B[37m").append("] ");
+                builder.append("[").append(stringVal).append("]");
             }
             builder.append("\n");
         }
